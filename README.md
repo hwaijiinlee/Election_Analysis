@@ -11,11 +11,8 @@ A total of 369,711 votes were cast in Arapahoe, Denver and Jefferson counties. D
 Diana DeGette won the election with an overwhelming majority of 73.8% of total votes cast or 272,892 votes while Charles Casper Stockham received 23% of the total votes or 85,213 votes. Raymon Anthony Doane only managed to garner 3.1% of total votes or 11,606 votes.
 
 ## Election Audit Summary
-The Python script used to audit the election results can be modified to handle any level of election, from city-level elections to the Presidential elections. 
+The Python script used to audit the election results can be modified to handle election at city-level as well. 
 ### Use for City or Township Level Elections
 In Mayoral elections for a city, we can re-use the script by removing the sections as they relate to county vote counts and the script would then only determine the winning Mayoral candidate for that city.
 
 In city elections whereby there are several measures to be voted on for example, sales tax increase, legalization of recreational marijuana, and removal of dog breed specific legislation, we can remove the sections where they relate to county vote counts, replace the candidate list and library with each measure's list and library, and replicate the calculation just like they are currently done to determine the number and percentage of each measure's yays and nays and subsequently, the winning option of each measure.
-
-### Use for Presidential elections
-In Presidential elections, we can further audit the vote count by State and County. As there might be county names that are the same across different States, the for loop to determine the Presidential vote count by county would need to be nested within the for loop for Presidential vote count by State.
