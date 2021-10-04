@@ -16,3 +16,4 @@ The Python script used to audit the election results can be modified to handle e
 In Mayoral elections for a city, we can re-use the script by removing the sections as they relate to county vote counts and the script would then only determine the winning Mayoral candidate for that city.
 
 In city elections whereby there are several Propositions to be voted on for example, sales tax increase, legalization of recreational marijuana, and removal of dog breed specific legislation, we can remove the sections where they relate to county vote counts, replace the candidate list and library with each Proposition's list and library, and replicate the calculation just like they are currently done to determine the number and percentage of each Proposition's yays and nays and subsequently, the winning option of each measure.
+Here is an example of the modified code: [Multiple Proposition Audit](https://github.com/hwaijiinlee/Election_Analysis/blob/main/multiple_prop.py)
